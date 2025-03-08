@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: #a8b9a1; /* Color similar al de la imagen */
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 5px solid #fff;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    /*display: block;*/
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-info .location {
+    color: #888;
+    margin: 5px 0;
+}
+
+.profile-info .description {
+    color: #333;
+    margin-top: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.label {
+    color: #888;
+}
+
+.actions {
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+}
+.actions button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actions .follow {
+    background-color: #a8b9a1; /* Color similar al de la imagen */
+    color: #fff;
+}
+
+.actions .message {
+    background-color: #ddd;
+    color: #333;
+}
