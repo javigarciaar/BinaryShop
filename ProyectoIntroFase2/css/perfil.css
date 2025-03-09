@@ -5,23 +5,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #c9d6f3;
+    background-image: url('https://i.redd.it/fw3pctfene911.jpg');
+    background-size: cover, contain;
+    background-repeat: no-repeat, no-repeat;
+    color: white;
 }
 
 .container {
     width: 80%;
     max-width: 600px;
-    background-color: #fff;
+    background-color: #20354ad5;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     padding: 20px;
-}
-
-.header {
-    background-color: #a8b9a1; /* Color similar al de la imagen */
-    padding: 20px 0;
-    border-radius: 10px 10px 0 0;
 }
 
 .profile-image {
@@ -30,13 +27,12 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
-    border: 5px solid #fff;
+    border: 5px solid #4d5c79c9;
 }
 
 .profile-image img {
     width: 100%;
     height: auto;
-    /*display: block;*/
 }
 
 .profile-info {
@@ -49,12 +45,12 @@ body {
 }
 
 .profile-info .location {
-    color: #888;
+    color: #ffffff;
     margin: 5px 0;
 }
 
 .profile-info .description {
-    color: #333;
+    color: #ffffff;
     margin-top: 10px;
 }
 
@@ -72,10 +68,11 @@ body {
 .number {
     font-size: 1.5em;
     font-weight: bold;
+    color: #ffffff;
 }
 
 .label {
-    color: #888;
+    color: #ffffff;
 }
 
 .actions {
@@ -83,6 +80,8 @@ body {
 }
 a {
     text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff
 }
 .actions button {
     padding: 10px 20px;
@@ -93,11 +92,13 @@ a {
 }
 
 .actions .follow {
-    background-color: #a8b9a1; /* Color similar al de la imagen */
-    color: #fff;
+    background-color: #688cdb; 
 }
 
 .actions .message {
-    background-color: #ddd;
-    color: #333;
+    background-color: #394f82;
+}
+
+.nombre{
+    color: rgb(85, 116, 156);
 }
